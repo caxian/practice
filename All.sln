@@ -5,17 +5,25 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chinese", "chinese", "{311996AF-DB24-4C15-B5FD-8D1B3FD96789}"
 	ProjectSection(SolutionItems) = preProject
+		chinese\2021-07-02.md = chinese\2021-07-02.md
 		chinese\2021-07-01.md = chinese\2021-07-01.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "english", "english", "{31E58BE8-4268-44A9-AD2A-4AC178BE0D54}"
 	ProjectSection(SolutionItems) = preProject
+		english\2021-07-02.md = english\2021-07-02.md
 		english\2021-07-01.md = english\2021-07-01.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C85EA95E-4B53-4B0A-90F2-E00B0B7CEB63}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disorder", "src\Disorder\Disorder.csproj", "{829C41A7-0A1C-4937-B56F-B79A31193DAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sentence", "sentence", "{5C369E76-4D7A-44A8-B8AB-7E4282F21D1C}"
+	ProjectSection(SolutionItems) = preProject
+		english\2021-07-01.md = english\2021-07-01.md
+		english\2021-07-02.md = english\2021-07-02.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

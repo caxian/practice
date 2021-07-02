@@ -16,7 +16,7 @@ namespace Disorder
                 var files = Directory.GetFiles(path);
                 foreach (var file in files)
                 {
-                    var lines = (await File.ReadAllLinesAsync(file)).Select(line => Regex.Match(line, @"\d+\.\s{1}(.+)").Groups[1].Value).ToList();
+                    var lines = (await File.ReadAllLinesAsync(file)).Select(line => Regex.Match(line, @"\d*\.?\s?(.+)").Groups[1].Value).ToList();
                     var rnd = new Random();
                     await File.WriteAllLinesAsync(file, lines.OrderBy(_ => rnd.Next()).Select((item, inedx) => $"{inedx + 1}. {item}").ToList());
                 }
