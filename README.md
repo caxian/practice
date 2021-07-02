@@ -1,2 +1,2 @@
-- [english](chinese)
-- [chinese](english)
+- [english](english)
+- [chinese](chinese)
