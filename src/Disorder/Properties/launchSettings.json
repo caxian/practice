@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Disorder": {
+      "commandName": "Project",
+      "commandLineArgs": "english chinese"
+    }
+  }
+}
