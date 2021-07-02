@@ -10,7 +10,7 @@ namespace Disorder
     {
         static async Task Main(string[] args)
         {
-            var paths = args.Select(arg => Path.Combine(GetParentPath(AppDomain.CurrentDomain.BaseDirectory, 5), arg)).ToList();
+            var paths = args.Select(arg => Path.Combine(string.Join(Path.DirectorySeparatorChar, AppDomain.CurrentDomain.BaseDirectory.TrimEnd(Path.DirectorySeparatorChar).Split(Path.DirectorySeparatorChar).SkipLast(5)), arg)).ToList();
             foreach (var path in paths)
             {
                 var files = Directory.GetFiles(path);
@@ -21,11 +21,6 @@ namespace Disorder
                     await File.WriteAllLinesAsync(file, lines.OrderBy(_ => rnd.Next()).Select((item, inedx) => $"{inedx + 1}. {item}").ToList());
                 }
             }
-        }
-
-        static string GetParentPath(string path, int depth)
-        {
-            return string.Join(Path.DirectorySeparatorChar, path.TrimEnd(Path.DirectorySeparatorChar).Split(Path.DirectorySeparatorChar).SkipLast(depth));
         }
     }
 }
