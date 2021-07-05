@@ -7,12 +7,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chinese", "chinese", "{3119
 	ProjectSection(SolutionItems) = preProject
 		chinese\2021-07-01.md = chinese\2021-07-01.md
 		chinese\2021-07-02.md = chinese\2021-07-02.md
+		chinese\2021-07-03.md = chinese\2021-07-03.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "english", "english", "{31E58BE8-4268-44A9-AD2A-4AC178BE0D54}"
 	ProjectSection(SolutionItems) = preProject
 		english\2021-07-01.md = english\2021-07-01.md
 		english\2021-07-02.md = english\2021-07-02.md
+		english\2021-07-03.md = english\2021-07-03.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C85EA95E-4B53-4B0A-90F2-E00B0B7CEB63}"
@@ -23,6 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sentence", "sentence", "{5C
 	ProjectSection(SolutionItems) = preProject
 		sentence\2021-07-01.md = sentence\2021-07-01.md
 		sentence\2021-07-02.md = sentence\2021-07-02.md
+		sentence\2021-07-03.md = sentence\2021-07-03.md
 	EndProjectSection
 EndProject
 Global
